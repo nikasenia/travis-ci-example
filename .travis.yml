@@ -2,5 +2,7 @@ language: java
 jdk: 
   - open jdk22
 
-script: mvn clean install
+script: 
+  - cd travis-ci-example
+  - mvn clean install
 

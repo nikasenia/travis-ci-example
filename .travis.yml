@@ -4,5 +4,5 @@ jdk:
 
 script: 
   - cd travis-ci-example
-  - mvn7 clean install
+  - mvn clean install
 

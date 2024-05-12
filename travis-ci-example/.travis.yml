@@ -2,5 +2,8 @@ language: java
 jdk: 
   -open jdk22
 
+os:
+  windows
+
 script: ./mvnw clean install
 
